@@ -63,29 +63,31 @@ namespace TaxiApplication.View
                 MessageBox.Show("All fields must be filled in");
                 return;
             }
-
-            using (IDbConnection dbConnection = new SQLiteConnection(connectionString))
+            else
             {
-                dbConnection.Open();
-                string highestTripIdQuery = "SELECT MAX(TripId) FROM Trips;";
-                int tripId = dbConnection.QueryFirstOrDefault<int>(highestTripIdQuery);
-
-                string updateTripQuery = "UPDATE Trips SET PickupTime = @PickupTime, StartLocation = @StartLocation, Destination = @Destination WHERE TripId = @TripId";
-
-                var tripDetails = new
+                using (IDbConnection dbConnection = new SQLiteConnection(connectionString))
                 {
-                    TripId = tripId,
-                    StartLocation = startingAddress,
-                    Destination = destinationAddress,
-                    PickupTime = pickupTime,
-                };
+                    dbConnection.Open();
+                    string highestTripIdQuery = "SELECT MAX(TripId) FROM Trips;";
+                    int tripId = dbConnection.QueryFirstOrDefault<int>(highestTripIdQuery);
 
-                dbConnection.Execute(updateTripQuery, tripDetails);
+                    string updateTripQuery = "UPDATE Trips SET PickupTime = @PickupTime, StartLocation = @StartLocation, Destination = @Destination WHERE TripId = @TripId";
+
+                    var tripDetails = new
+                    {
+                        TripId = tripId,
+                        StartLocation = startingAddress,
+                        Destination = destinationAddress,
+                        PickupTime = pickupTime,
+                    };
+
+                    dbConnection.Execute(updateTripQuery, tripDetails);
+                }
+
+                OverviewRides overViewRides = new OverviewRides();
+                overViewRides.Show();
+                Close();
             }
-
-            OverviewRides overViewRides = new OverviewRides();
-            overViewRides.Show();
-            Close();
 
         }
     }
