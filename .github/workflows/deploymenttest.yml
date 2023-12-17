@@ -1,10 +1,9 @@
 name: "Deployment Taxi Application"
 
-on: 
-  push: 
-    tags:
-      - "TaxiApplication/v*"
-
+on:
+  push:
+    branches: [ "main" ]
+  
 env:
   PROJECT_PATH: TaxiApplication/TaxiApplication.csproj
 jobs:
