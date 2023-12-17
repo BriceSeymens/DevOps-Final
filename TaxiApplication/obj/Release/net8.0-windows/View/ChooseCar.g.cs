@@ -157,7 +157,7 @@ namespace TaxiApplication.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TaxiApplication;V1.0.0.0;component/view/choosecar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TaxiApplication;component/view/choosecar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\ChooseCar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

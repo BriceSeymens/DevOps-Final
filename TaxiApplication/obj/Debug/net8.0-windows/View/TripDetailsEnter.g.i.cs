@@ -109,7 +109,7 @@ namespace TaxiApplication.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TaxiApplication;component/view/tripdetailsenter.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TaxiApplication;V1.0.0.0;component/view/tripdetailsenter.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\TripDetailsEnter.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
