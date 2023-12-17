@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaxiApplication
-build_property.ProjectDir = D:\Documenten\School\IT\ITF-2\DevOpsNSecurity\Case Study\Final Project\DevOps-Final\TaxiApplication\
+build_property.ProjectDir = D:\Documenten\School\IT\ITF-2\DevOpsNSecurity\Case Study\TaxiApplication\TaxiApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
