@@ -33,5 +33,5 @@ jobs:
       - uses: csexton/release-asset-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          pattern: TaxiApplication/bin/Debug/net8.0-windows/*.exe
+          pattern: TaxiApplication/bin/Debug/net8.0-windows/
           release-url: ${{ steps.create-release.outputs.upload_url }}
