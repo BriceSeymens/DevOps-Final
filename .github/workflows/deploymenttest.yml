@@ -27,8 +27,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-         tag-name: v1.0.0
-         release-name: TaxiApplication
+         tag_name: v1.0.0
+         release_name: TaxiApplication
 
       - uses: csexton/release-asset-action@v2
         with:
