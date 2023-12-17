@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\TaxiApplication\\TaxiApplication\\TaxiApplication.csproj": {}
+    "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\Final Project\\DevOps-Final\\TaxiApplication\\TaxiApplication.csproj": {}
   },
   "projects": {
-    "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\TaxiApplication\\TaxiApplication\\TaxiApplication.csproj": {
+    "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\Final Project\\DevOps-Final\\TaxiApplication\\TaxiApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\TaxiApplication\\TaxiApplication\\TaxiApplication.csproj",
+        "projectUniqueName": "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\Final Project\\DevOps-Final\\TaxiApplication\\TaxiApplication.csproj",
         "projectName": "TaxiApplication",
-        "projectPath": "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\TaxiApplication\\TaxiApplication\\TaxiApplication.csproj",
+        "projectPath": "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\Final Project\\DevOps-Final\\TaxiApplication\\TaxiApplication.csproj",
         "packagesPath": "C:\\Users\\brice\\.nuget\\packages\\",
-        "outputPath": "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\TaxiApplication\\TaxiApplication\\obj\\",
+        "outputPath": "D:\\Documenten\\School\\IT\\ITF-2\\DevOpsNSecurity\\Case Study\\Final Project\\DevOps-Final\\TaxiApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
